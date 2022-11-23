@@ -4,7 +4,7 @@
 ![Badge](https://img.shields.io/static/v1?label=license&message=MIT&color=1E90FF)
 ![Badge](https://img.shields.io/static/v1?label=build&message=passing&color=00d110)
 
-Find the usage example in [example.c](https://github.com/luscafter/table/blob/main/example.c).
+Find the usage example in [example.c](https://github.com/lucapwn/table/blob/main/example.c).
 
 The table function receives 7 mandatory parameters, which are:
 
