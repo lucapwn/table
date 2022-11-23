@@ -51,6 +51,6 @@ int main(int argc, char *argv[]) {
 }
 ~~~
 
-## Created Table:
+## Created Table
 
 ![](https://lh3.googleusercontent.com/pw/ACtC-3fqQbNZ8qiALv-h11N24LeXL2lZF___BKTIGG1rzR9Vl0ZmX_mY5VWZsffpDqBs675zIYG2w4rUBEWxIivov0Sf_zi-lB2WJaFu0vazY41indOqr_lnLBoYNfKTQeNAYQWAO6yQ8K8M3ERCiZ-NLjwzOw=w678-h132-no?authuser=0)
