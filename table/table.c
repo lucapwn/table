@@ -108,12 +108,9 @@ void reset_color(void) {
 }
 #endif // defined
 
-void table(size_t spacing, char *key_color, char *value_color, size_t key_attributes, char key[][MAXIMUM_STRING_LENGTH], size_t value_attributes, char value[][key_attributes][MAXIMUM_STRING_LENGTH])
-{
+void table(size_t spacing, char *key_color, char *value_color, size_t key_attributes, char key[][MAXIMUM_STRING_LENGTH], size_t value_attributes, char value[][key_attributes][MAXIMUM_STRING_LENGTH]) {
     int overall_width = 0;
     int largest_column[key_attributes];
-
-    /* Initializes variables and functions to save console information */
 
 #if defined(__WIN32__) || defined(__NT__)    // Windows
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
