@@ -1,18 +1,40 @@
 # Table
-## Library for dynamically creating tables in C language.
+
+Library for dynamically creating tables in C language.
 
 ![Badge](https://img.shields.io/static/v1?label=license&message=MIT&color=1E90FF)
 ![Badge](https://img.shields.io/static/v1?label=build&message=passing&color=00d110)
 
-Find the usage example in [example.c](https://github.com/lucapwn/table/blob/main/example.c).
+## Content
 
-The table function receives 7 mandatory parameters, which are:
+- [About](#about)
+- [Support](#support)
+- [Attributes](#attributes)
+- [Example](#example)
+- [Running](#running)
+- [Screenshot](#screenshot)
+- [Author](#author)
+- [License](#license)
+
+## About
+
+The [Table](https://github.com/lucapwn/table) library allows you to easily create C language tables in CLI (Command Line Interface) format.
+
+With this library, you can set the color of the table text and the left alignment of the table.
+
+The ```table``` function receives seven mandatory parameters, which are:
 
 ~~~C
 void table(size_t spacing, char *key_color, char *value_color, size_t key_attributes, char key[][MAXIMUM_STRING_LENGTH], size_t value_attributes, char value[][key_attributes][MAXIMUM_STRING_LENGTH]);
 ~~~
 
+## Support
+
+This library has support for the Windows and GNU/Linux operating systems.
+
 ## Attributes
+
+Below is an explanation of each parameter of the ```table``` function.
 
 1. **spacing**: Number of spaces to the left of the table.
 2. **key_color**: Assign a color to the attributes of the table. If you leave it empty, it will be the default color. List of available colors: ```white```, ```blue```, ```red```, ```green```, ```yellow```, ```magenta``` and ```cyan```.
@@ -24,7 +46,7 @@ void table(size_t spacing, char *key_color, char *value_color, size_t key_attrib
 
 ## Example
 
-Example of the C language code to create the table.
+Below is an example of the use of the library.
 
 ~~~C
 #include <stdio.h>
@@ -51,6 +73,30 @@ int main(int argc, char *argv[]) {
 }
 ~~~
 
-## Created Table
+## Running
+
+Compiling the library [example](https://github.com/lucapwn/table/blob/main/example.c) (GNU/Linux):
+
+~~~console
+foo@bar:~$ gcc -o example example.c
+~~~
+
+Running the created executable:
+
+~~~console
+foo@bar:~$ ./example
+~~~
+
+## Screenshot
+
+The image below illustrates the example table created with the library.
 
 ![](https://lh3.googleusercontent.com/pw/ACtC-3fqQbNZ8qiALv-h11N24LeXL2lZF___BKTIGG1rzR9Vl0ZmX_mY5VWZsffpDqBs675zIYG2w4rUBEWxIivov0Sf_zi-lB2WJaFu0vazY41indOqr_lnLBoYNfKTQeNAYQWAO6yQ8K8M3ERCiZ-NLjwzOw=w678-h132-no?authuser=0)
+
+## Author
+
+Developed by [Lucas Araújo](https://github.com/lucapwn).
+
+## License
+
+This software is [MIT](https://choosealicense.com/licenses/mit/) licensed.
