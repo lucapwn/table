@@ -8,8 +8,8 @@ Library for dynamically creating tables in C language.
 ## Content
 
 - [About](#about)
+    - [Attributes](#attributes)
 - [Support](#support)
-- [Attributes](#attributes)
 - [Example](#example)
 - [Running](#running)
 - [Screenshot](#screenshot)
@@ -28,11 +28,7 @@ The ```table``` function receives seven mandatory parameters, which are:
 void table(size_t spacing, char *key_color, char *value_color, size_t key_attributes, char key[][MAXIMUM_STRING_LENGTH], size_t value_attributes, char value[][key_attributes][MAXIMUM_STRING_LENGTH]);
 ~~~
 
-## Support
-
-This library has support for the Windows and GNU/Linux operating systems.
-
-## Attributes
+### Attributes
 
 Below is an explanation of each parameter of the ```table``` function.
 
@@ -43,6 +39,12 @@ Below is an explanation of each parameter of the ```table``` function.
 5. **key**: It receives a two-dimensional vector containing the names of the attributes of the table.
 6. **values_attributes**: Sets the number of rows in the table (values).
 7. **value**: It receives a three-dimensional vector containing the values of the table.
+
+## Support
+
+This library has support for the Windows and GNU/Linux operating systems.
+
+I have not been able to test it on macOS yet, but I believe it will work as well.
 
 ## Example
 
