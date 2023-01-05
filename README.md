@@ -1,6 +1,6 @@
 # Table
 
-Library for dynamically creating tables in C language.
+[Table](https://github.com/lucapwn/table) is a library developed in the C language for creating dynamic tables.
 
 ![Badge](https://img.shields.io/static/v1?label=license&message=MIT&color=1E90FF)
 ![Badge](https://img.shields.io/static/v1?label=build&message=passing&color=00d110)
